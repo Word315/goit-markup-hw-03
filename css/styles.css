@@ -1,164 +1,161 @@
 body{
-    font-family: "Roboto", sans-serif;
-    background-color:#fff;
-    color:#434455;
-    
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #ffffff;
+}
+*,
+*::before,
+*::after {
+box-sizing: border-box;
 }
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+display:flex;
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
 }
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0 ;
-	margin-bottom: 0 ;
+margin: 0 ;
+margin: 0 ;
 }
-
 ul, ol {
-	margin-top: 0 ;
-	margin-bottom: 0 ;
-	padding-left: 0 ;
+margin: 0 ;
+padding: 0 ;
+list-style-type: none;
 }
-
 a,li{
-    text-decoration: none;
-    list-style-type: none;
+text-decoration: none;
 }
 img {
-	display: block;
-    max-width: 100%;
+display: block;
+max-width: 100%;
 }
-
 .logo{
-    line-height: 1.17;
-    
+line-height: 1.17;
 }
 .logo .logo-web {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-
-    font-family: "Raleway", sans-serif;
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+font-family: "Raleway", sans-serif;
+display:flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0px;
 }
 .nav{
-    margin-right: 332px;
+margin-right: 332px;
 }
-.header> nav{
-    display:flex;
-    
+.header{
+border-bottom: 1px solid #e7e9fc;
 }
-.header> nav > a{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    margin-right: 76px;
-
-    }
-.header ul .link:hover,
-.header ul .link:focus{
-    color: #404bbf;
+.container> nav{
+display:flex;
 }
-.header .ul-list{
-    display:flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-
+.container> nav > a{
+display:flex;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0px;
 }
-.header address ul{
-    display: flex;
+.container ul .link:hover,
+.container ul .link:focus{
+color: #404bbf;
 }
-.header ul .link
- {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.container .ul-list{
+display:flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+padding-left: 76px;
 }
-
+.container address ul{
+display: flex;
+}
+.container ul .link
+{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
 .address{
-    font-style: normal;
+font-style: normal;
 }
 .address ul .link {
-    margin-right: 40px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+display:flex;
+margin-right: 40px;
+color: #434455;
+justify-content: flex-end;
 }
 .address .add:hover,
 .address .add:focus{
-    color: #404bbf
+color: #404bbf
 }
-
 .main .main-section-first{
-    background-color: #2e2f42;
+background-color: #2e2f42;
 }
-
 .head-one{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    padding: 188px 472px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+padding: 188px 472px;
 }
-
 .main-section-first .button{
-
-    background: #4d5ae5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 4px;
-    /* Button */
-    position: relative;
-    
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10;
-    padding: 16px 32px;  
-    margin-bottom: 188px;
+background: #4d5ae5;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+cursor: pointer;
+border-radius: 4px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 16px 32px;  
+margin:0 auto;
 }
 .main-section-first .button:hover,
 .main-section-first .button:focus
 {
+background-color: #404BBF
+}
+.main-section-second .list-second{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
 
-    background-color: #404BBF
-    
-    }
-
-
+}
 .main-section-third {
-    background: #f4f4fd;
+background: #f4f4fd;
 }
 .head-two{
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -168,10 +165,9 @@ text-transform: capitalize
 }
 .tab-li{
 background: #fff;
-    
 }
- .head-three{
-    font-weight: 500;
+.head-three{
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -179,18 +175,16 @@ text-align: center;
 color: #2e2f42;
 }
 .par{
-
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-    
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
 .main-section-four li{
-    border: 1px solid #e7e9fc;
+border: 1px solid #e7e9fc;
 }
 .footer{
-    background-color: #2e2f42;
+background-color: #2e2f42;
 }
 .footer .logo-footer{
 font-weight: 700;
@@ -202,18 +196,15 @@ color: #4d5ae5;
 font-family: "Raleway", sans-serif;
 }
 .logo-web-footer{
-    color: #f4f4fd;
-    }
+color: #f4f4fd;
+}
 .footer a
- {
-
-    font-weight: 500;
-
+{
+font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-
 .footer > a{
 font-weight: 700; 
 font-size: 18px;
@@ -224,7 +215,7 @@ color: #f4f4fd;
 font-family: "Raleway", sans-serif;
 }
 .footer > p{
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
