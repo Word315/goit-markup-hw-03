@@ -138,6 +138,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 margin: 0 auto;
+max-width: 496px;
 }
 .button {
 background: #4d5ae5;
@@ -176,6 +177,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 8px;
+width: calc((100% - 72px) / 4);
 
 }
 .main-section-third {
@@ -218,7 +220,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 8px;
-margin: 0 auto;
 }
 .par-second{
 font-family: "Roboto", sans-serif;
@@ -307,7 +308,7 @@ flex-wrap: wrap;
 row-gap: 48px;
 column-gap: 24px;
 }
-.list-four{
+.main-section-four .list-four{
 width: calc((100% - 48px) / 3);
 }
 .portfolio{
@@ -358,6 +359,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+display: inline-block;
 }
 
 .footer .par-footer{
