@@ -58,10 +58,6 @@ display: flex;
 .logo-web {
 color: #2e2f42;
 }
-.nav{
-margin-right: 332px;
-}
-
 .head-container> nav{
 background: #ffffff;
 display: flex;
@@ -235,10 +231,7 @@ background-color: #f4f4fd;
 padding: 120px 0;
 margin: 0; 
 }
-.container-section-third{
-padding: 32px 0;
-text-align: center;
-}
+
 .ul-third{
 display: flex;
 gap: 24px;
@@ -246,8 +239,6 @@ flex-wrap: wrap;
 }
 .list-third{
 background-color: #ffffff;
-width: 264px;
-height: 380px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 flex-basis: calc((100% - 72px) / 4);
 border-radius: 0 0 4px 4px;
